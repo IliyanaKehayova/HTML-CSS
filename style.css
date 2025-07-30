@@ -1,0 +1,63 @@
+.dropdown{
+    display:inline-block;
+}
+
+.dropdown button{
+    background-color: rgb(255, 254, 254);
+    color: black;
+    padding: 10px 15px;
+    border : none;
+    cursor: pointer;
+    font-family: "Consolas";
+    font-size: 18px;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none; 
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(8, 8, 8);
+    font-family: "Consolas";
+    font-size: 18px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: rgb(230, 230, 230);
+}
+
+.dropdown a:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.button {
+    padding: 8px 12px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.formulaire {
+font-family: "Consolas";
+font-size: 12px;
+}
+
